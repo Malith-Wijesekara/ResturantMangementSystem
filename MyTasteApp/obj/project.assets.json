@@ -3335,8 +3335,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.6",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
           "MyTasteApp.Models": "1.0.0",
           "Stripe.net": "37.28.0"
         },
@@ -3349,7 +3349,7 @@
       },
       "MyTasteApp.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.6",
           "Microsoft.AspNetCore.Mvc": "2.2.0"

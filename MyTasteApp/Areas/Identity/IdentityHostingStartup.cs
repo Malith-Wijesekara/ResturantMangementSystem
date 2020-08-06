@@ -15,12 +15,12 @@ namespace MyTasteApp.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                // services.AddDbContext<MyTasteAppIdentityDbContext>(options =>
-                //     options.UseSqlServer(
-                //         context.Configuration.GetConnectionString("MyTasteAppIdentityDbContextConnection"), x => x.MigrationsAssembly("MyTasteApp.DataAccess.Migrations")));
+                services.AddDbContext<MyTasteAppIdentityDbContext>(options =>
+                    options.UseSqlServer(
+                        context.Configuration.GetConnectionString("MyTasteAppIdentityDbContextConnection"), x => x.MigrationsAssembly("MyTasteApp.DataAccess.Migrations")));
 
-                // services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                //     .AddEntityFrameworkStores<MyTasteAppIdentityDbContext>();
+                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<MyTasteAppIdentityDbContext>();
             });
         }
     }

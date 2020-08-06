@@ -7,16 +7,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.6" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6" />      
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />      
     <PackageReference Include="Stripe.net" Version="37.28.0" />
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\MyTasteApp.Models\MyTasteApp.Models.csproj" /> 
-    <ProjectReference Include="..\MyTasteApp.Models\MyTasteApp.Models.csproj" /> 
-    <ProjectReference Include="..\MyTasteApp.Utility\MyTasteApp.Utility.csproj" />   
+    <ProjectReference Include="..\MyTasteApp.Models\MyTasteApp.Models.csproj" />     
   </ItemGroup>
 
 </Project>

@@ -26,15 +26,7 @@ namespace MyTasteApp
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
-        {         
-            services.AddDbContext<MyTasteAppIdentityDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddIdentity<IdentityUser,IdentityRole>()
-                .AddDefaultTokenProviders()               
-                .AddEntityFrameworkStores<MyTasteAppIdentityDbContext>();
-
-
+        {    
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddRazorPages().AddRazorRuntimeCompilation();
