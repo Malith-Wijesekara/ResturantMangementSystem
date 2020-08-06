@@ -19,7 +19,7 @@ namespace MyTasteApp.DataAccess.Data.Repository
             return _db.Category.Select(i => new SelectListItem(){
                 Text = i.Name,
                 Value = i.Id.ToString()
-            })
+            });
         }
 
         public void Update(Category category)

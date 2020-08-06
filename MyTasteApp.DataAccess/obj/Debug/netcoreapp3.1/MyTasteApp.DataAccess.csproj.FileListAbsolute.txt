@@ -10,3 +10,8 @@ D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\obj\Debug\ne
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\obj\Debug\netcoreapp3.1\MyTasteApp.DataAccess.csproj.CopyComplete
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\obj\Debug\netcoreapp3.1\MyTasteApp.DataAccess.dll
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\obj\Debug\netcoreapp3.1\MyTasteApp.DataAccess.pdb
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\bin\Debug\netcoreapp3.1\MyTasteApp.DataAccess.runtimeconfig.json
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\bin\Debug\netcoreapp3.1\MyTasteApp.DataAccess.runtimeconfig.dev.json
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\obj\Debug\netcoreapp3.1\MyTasteApp.DataAccess.genruntimeconfig.cache
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\bin\Debug\netcoreapp3.1\MyTasteApp.Utility.dll
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.DataAccess\bin\Debug\netcoreapp3.1\MyTasteApp.Utility.pdb

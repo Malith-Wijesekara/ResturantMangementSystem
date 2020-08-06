@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {}
+    "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {}
   },
   "projects": {
-    "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {
+    "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj",
+        "projectUniqueName": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj",
         "projectName": "MyTasteApp.Utility",
-        "projectPath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj",
+        "projectPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj",
         "packagesPath": "C:\\Users\\malithw\\.nuget\\packages\\",
-        "outputPath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\obj\\",
+        "outputPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -30,6 +30,9 @@
             "projectReferences": {
               "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Models\\MyTasteApp.Models.csproj": {
                 "projectPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Models\\MyTasteApp.Models.csproj"
+              },
+              "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {
+                "projectPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj"
               }
             }
           }
@@ -50,6 +53,10 @@
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -151,6 +158,65 @@
               "version": "[3.0.0, 3.0.0]"
             }
           ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj",
+        "projectName": "MyTasteApp.Utility",
+        "projectPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj",
+        "packagesPath": "C:\\Users\\malithw\\.nuget\\packages\\",
+        "outputPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\malithw\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

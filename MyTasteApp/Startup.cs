@@ -10,7 +10,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using MyTasteApp.DataAccess;
+using MyTasteApp.DataAccess.Data.Repository;
+using MyTasteApp.DataAccess.Data.Repository.IRepository;
 
 namespace MyTasteApp
 {
@@ -24,13 +26,22 @@ namespace MyTasteApp
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
-        {            
+        {         
+            services.AddDbContext<MyTasteAppIdentityDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+            services.AddIdentity<IdentityUser,IdentityRole>()
+                .AddDefaultTokenProviders()               
+                .AddEntityFrameworkStores<MyTasteAppIdentityDbContext>();
+
+
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddMvc(options => options.EnableEndpointRouting = false)
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
             
         }
 
