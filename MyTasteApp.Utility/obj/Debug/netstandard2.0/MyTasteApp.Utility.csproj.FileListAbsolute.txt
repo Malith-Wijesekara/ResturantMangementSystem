@@ -1,0 +1,4 @@
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.Utility\obj\Debug\netstandard2.0\MyTasteApp.Utility.csprojAssemblyReference.cache
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.Utility\obj\Debug\netstandard2.0\MyTasteApp.Utility.AssemblyInfoInputs.cache
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.Utility\obj\Debug\netstandard2.0\MyTasteApp.Utility.AssemblyInfo.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp.Utility\obj\Debug\netstandard2.0\MyTasteApp.Utility.csproj.CoreCompileInputs.cache
