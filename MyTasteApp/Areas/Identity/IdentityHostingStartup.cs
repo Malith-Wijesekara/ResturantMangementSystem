@@ -17,7 +17,7 @@ namespace MyTasteApp.Areas.Identity
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<MyTasteAppIdentityDbContext>(options =>
                     options.UseSqlServer(
-                        context.Configuration.GetConnectionString("MyTasteAppIdentityDbContextConnection"), x => x.MigrationsAssembly("MyTasteApp.DataAccess.Migrations")));
+                        context.Configuration.GetConnectionString("MyTasteAppIdentityDbContextConnection")));
 
                 services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<MyTasteAppIdentityDbContext>();

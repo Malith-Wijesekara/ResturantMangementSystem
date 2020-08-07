@@ -20556,6 +20556,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\Category\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
