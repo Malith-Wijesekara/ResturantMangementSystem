@@ -33,7 +33,9 @@ namespace MyTasteApp
             services.AddMvc(options => options.EnableEndpointRouting = false)
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0);
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             
         }
 

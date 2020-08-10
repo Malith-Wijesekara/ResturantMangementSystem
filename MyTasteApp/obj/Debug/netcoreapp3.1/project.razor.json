@@ -20521,6 +20521,11 @@
   "RootNamespace": "MyTasteApp",
   "Documents": [
     {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\FoodType\\Upsert.cshtml",
+      "TargetPath": "Pages\\Admin\\FoodType\\Upsert.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -20528,6 +20533,11 @@
     {
       "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\Category\\Upsert.cshtml",
+      "TargetPath": "Pages\\Admin\\Category\\Upsert.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20573,6 +20583,11 @@
     {
       "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\FoodType\\index.cshtml",
+      "TargetPath": "Pages\\Admin\\FoodType\\index.cshtml",
       "FileKind": "mvc"
     }
   ],

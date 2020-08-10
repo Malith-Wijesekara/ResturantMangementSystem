@@ -590,3 +590,6 @@ D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Category\Index.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\index.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
