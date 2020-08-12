@@ -30,37 +30,39 @@ namespace MyTasteApp.DataAccess.Data.Repository
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
-            if(filter != null){
+            if (filter != null)
+            {
                 query = query.Where(filter);
             }
-
             //include properties will be comma seperated
-            if(includeProperties != null){
-                foreach (var incldeProperty in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+            if (includeProperties != null)
+            {
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    query = query.Include(incldeProperty);                    
-                }
+                    query = query.Include(includeProperty);
+                }                
             }
 
-            if(orderBy != null){
+            if (orderBy != null)
+            {
                 return orderBy(query).ToList();
             }
-
             return query.ToList();
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
-            if(filter != null){
+            if (filter != null)
+            {
                 query = query.Where(filter);
             }
-
             //include properties will be comma seperated
-            if(includeProperties != null){
-                foreach (var incldeProperty in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+            if (includeProperties != null)
+            {
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    query = query.Include(incldeProperty);                    
+                    query = query.Include(includeProperty);
                 }
             }
 

@@ -16,7 +16,7 @@ namespace MyTasteApp.Pages.Admin.Category
             _unitOfWork = unitOfWork;
 
         }
-
+        [BindProperty]
         public Models.Category CategoryObj { get; set; }
         
         public IActionResult OnGet(int? id)

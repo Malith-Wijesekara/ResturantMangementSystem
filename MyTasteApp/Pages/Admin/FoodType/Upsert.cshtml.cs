@@ -17,7 +17,7 @@ namespace MyTasteApp.Pages.Admin.FoodType
             _unitOfWork = unitOfWork;
 
         }
-        // [BindProperty]
+        [BindProperty]
         public Models.FoodType FoodTypeObj { get; set; }
         public IActionResult OnGet(int? id)
         {

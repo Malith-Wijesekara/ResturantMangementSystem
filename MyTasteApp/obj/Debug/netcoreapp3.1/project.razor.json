@@ -20526,6 +20526,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\MenuItem\\Upsert.cshtml",
+      "TargetPath": "Pages\\Admin\\MenuItem\\Upsert.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -20566,8 +20571,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Customer\\Home\\Index.cshtml",
+      "TargetPath": "Pages\\Customer\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\Category\\Index.cshtml",
       "TargetPath": "Pages\\Admin\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp\\Pages\\Admin\\MenuItem\\index.cshtml",
+      "TargetPath": "Pages\\Admin\\MenuItem\\index.cshtml",
       "FileKind": "mvc"
     },
     {
