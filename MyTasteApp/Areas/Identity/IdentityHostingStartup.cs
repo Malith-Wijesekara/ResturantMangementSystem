@@ -2,10 +2,12 @@ using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyTasteApp.DataAccess;
+using MyTasteApp.Utility;
 
 [assembly: HostingStartup(typeof(MyTasteApp.Areas.Identity.IdentityHostingStartup))]
 namespace MyTasteApp.Areas.Identity
@@ -19,8 +21,11 @@ namespace MyTasteApp.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("MyTasteAppIdentityDbContextConnection")));
 
-                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddDefaultTokenProviders()
                     .AddEntityFrameworkStores<MyTasteAppIdentityDbContext>();
+
+                services.AddSingleton<IEmailSender, EmailSender>();
             });
         }
     }

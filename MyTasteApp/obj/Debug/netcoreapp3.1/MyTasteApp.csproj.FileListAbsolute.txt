@@ -596,3 +596,11 @@ D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\MenuItem\index.cshtml.g.cs
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\MenuItem\Upsert.cshtml.g.cs
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Home\Index.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1\MyTasteApp.Utility.dll
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1\MyTasteApp.Utility.pdb
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\User\Index.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs

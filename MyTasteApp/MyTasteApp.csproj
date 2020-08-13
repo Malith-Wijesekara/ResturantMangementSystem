@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MyTasteApp.DataAccess\MyTasteApp.DataAccess.csproj" />
     <ProjectReference Include="..\MyTasteApp.Models\MyTasteApp.Models.csproj" />    
+    <ProjectReference Include="..\MyTasteApp.Utility\MyTasteApp.Utility.csproj" />    
   </ItemGroup>
 
 </Project>

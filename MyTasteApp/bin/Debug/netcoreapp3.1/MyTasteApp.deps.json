@@ -34,6 +34,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
           "MyTasteApp.DataAccess": "1.0.0",
           "MyTasteApp.Models": "1.0.0",
+          "MyTasteApp.Utility": "1.0.0",
           "Stripe.net": "37.28.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
@@ -2703,6 +2704,7 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "3.1.6",
           "Microsoft.Extensions.Configuration.Json": "3.1.6",
           "MyTasteApp.Models": "1.0.0",
+          "MyTasteApp.Utility": "1.0.0",
           "Stripe.net": "37.28.0"
         },
         "runtime": {
@@ -2722,6 +2724,17 @@
         },
         "compile": {
           "MyTasteApp.Models.dll": {}
+        }
+      },
+      "MyTasteApp.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.6"
+        },
+        "runtime": {
+          "MyTasteApp.Utility.dll": {}
+        },
+        "compile": {
+          "MyTasteApp.Utility.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/3.1.0.0": {
@@ -5798,6 +5811,11 @@
       "sha512": ""
     },
     "MyTasteApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyTasteApp.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

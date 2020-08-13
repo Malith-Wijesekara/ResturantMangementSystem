@@ -3379,6 +3379,7 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "3.1.6",
           "Microsoft.Extensions.Configuration.Json": "3.1.6",
           "MyTasteApp.Models": "1.0.0",
+          "MyTasteApp.Utility": "1.0.0",
           "Stripe.net": "37.28.0"
         },
         "compile": {
@@ -3400,6 +3401,19 @@
         },
         "runtime": {
           "bin/placeholder/MyTasteApp.Models.dll": {}
+        }
+      },
+      "MyTasteApp.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.6"
+        },
+        "compile": {
+          "bin/placeholder/MyTasteApp.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyTasteApp.Utility.dll": {}
         }
       }
     }
@@ -10118,6 +10132,11 @@
       "type": "project",
       "path": "../MyTasteApp.Models/MyTasteApp.Models.csproj",
       "msbuildProject": "../MyTasteApp.Models/MyTasteApp.Models.csproj"
+    },
+    "MyTasteApp.Utility/1.0.0": {
+      "type": "project",
+      "path": "../MyTasteApp.Utility/MyTasteApp.Utility.csproj",
+      "msbuildProject": "../MyTasteApp.Utility/MyTasteApp.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10132,6 +10151,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
       "MyTasteApp.DataAccess >= 1.0.0",
       "MyTasteApp.Models >= 1.0.0",
+      "MyTasteApp.Utility >= 1.0.0",
       "Stripe.net >= 37.28.0"
     ]
   },
@@ -10168,6 +10188,9 @@
             },
             "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Models\\MyTasteApp.Models.csproj": {
               "projectPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Models\\MyTasteApp.Models.csproj"
+            },
+            "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj": {
+              "projectPath": "D:\\Improvement plan\\Razor page app\\MyTasteApp\\MyTasteApp.Utility\\MyTasteApp.Utility.csproj"
             }
           }
         }
