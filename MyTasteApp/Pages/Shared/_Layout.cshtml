@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿
+@using Microsoft.AspNetCore.Http
+@inject  IHttpContextAccessor HttpContextAccessor
+@using MyTasteApp.Utility
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -30,12 +35,31 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link text-white dropdown-toggle" id="navbarDropDown" href="#" data-toggle="dropdown">Admin</a>
                             <div class="dropdown-menu">
-                                  <a class="dropdown-item tet-white" asp-page="/Admin/Category/Index">Category</a>
+                                  <a class="dropdown-item text-white" asp-page="/Admin/Category/Index">Category</a>
                                   <a class="dropdown-item tet-white" asp-page="/Admin/FoodType/Index">Food Type</a>
                                   <a class="dropdown-item tet-white" asp-page="/Admin/MenuItem/Index">Menu Item</a>
                                   <a class="dropdown-item tet-white" asp-page="/Admin/User/Index">User</a>
                             </div>
-                        </li>                        
+                        </li>    
+                        @if (HttpContextAccessor.HttpContext.Session.GetInt32(SD.ShopptingCart) != null)
+                        {
+                            <li>
+                                <a asp-page="/Customer/Cart/Index" class="nav-link text-white-50">
+                                    @{
+                                        var count = HttpContextAccessor.HttpContext.Session.GetInt32(SD.ShopptingCart);
+                                    }
+                                    <i class="fas fa-shopping-cart"></i> &nbsp; (@count)
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="#" class="nav-link text-white-50">
+                                    <i class="fas fa-shopping-cart"></i> &nbsp; (0)
+                                </a>
+                            </li>
+                        }                    
                     </ul>                    
                 </div>
             </div>

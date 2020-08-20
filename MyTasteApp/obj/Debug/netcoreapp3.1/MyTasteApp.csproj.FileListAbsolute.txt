@@ -604,3 +604,4 @@ D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\bin\Debug\netcoreapp3.1\MyTasteApp.Utility.pdb
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\User\Index.cshtml.g.cs
 D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Improvement plan\Razor page app\MyTasteApp\MyTasteApp\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Home\Details.cshtml.g.cs
